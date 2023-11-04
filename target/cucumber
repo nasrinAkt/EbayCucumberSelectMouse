@@ -1,0 +1,156 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user can view summary page",
+        "description": "",
+        "id": ";verify-user-can-view-summary-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4307799200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open ebay application",
+            "match": {
+              "location": "StepClass.open_ebay_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2291175200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "mouse hover on MyeBay",
+            "match": {
+              "location": "StepClass.mouse_hover_on_MyeBay()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 299463800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click summary",
+            "match": {
+              "location": "StepClass.click_summary()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Verify motors search result display",
+        "description": "",
+        "id": ";verify-motors-search-result-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2371906000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open ebay application",
+            "match": {
+              "location": "StepClass.open_ebay_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1226199900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select motors from  shop by category dropdown",
+            "match": {
+              "location": "StepClass.select_motors_from_shop_by_category_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3782553400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click search",
+            "match": {
+              "location": "StepClass.click_search()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify count all the links in page",
+        "description": "",
+        "id": ";verify-count-all-the-links-in-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2367112800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Open ebay application",
+            "match": {
+              "location": "StepClass.open_ebay_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5102650600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "count all the links",
+            "match": {
+              "location": "StepClass.count_all_the_links()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "MyeBay.feature"
+  }
+]
